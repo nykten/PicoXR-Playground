@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "PicoXR Playground.sln"
+    "dotnet.defaultSolution": "PicoXR-Playground.sln"
 }
