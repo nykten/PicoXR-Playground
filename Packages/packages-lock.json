@@ -83,6 +83,15 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.pico.livepreview": {
+      "version": "file:D:/UnitY/X-tra Packages/Unity Live Preview Plugin-1.0.4-20241205",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.xr.management": "4.0.0",
+        "com.unity.xr.interaction.toolkit": "2.0.0"
+      }
+    },
     "com.unity.render-pipelines.core": {
       "version": "14.0.11",
       "depth": 1,
@@ -239,15 +248,13 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.picoxr": {
-      "version": "https://github.com/Pico-Developer/PICO-Unity-Integration-SDK.git",
+      "version": "file:D:/UnitY/X-tra Packages/PICO Unity Integration SDK_250",
       "depth": 0,
-      "source": "git",
+      "source": "local",
       "dependencies": {
         "com.unity.xr.management": "4.0.0",
-        "com.unity.xr.interaction.toolkit": "2.0.0",
-        "com.unity.xr.core-utils": "2.3.0"
-      },
-      "hash": "fec80f9432f90e59c23495fffccec78044ec43f5"
+        "com.unity.xr.interaction.toolkit": "2.0.0"
+      }
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

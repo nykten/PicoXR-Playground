@@ -12,5 +12,6 @@ EditorBuildSettings:
     path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
   m_configObjects:
+    Unity.XR.PICO.LivePreview.Settings: {fileID: 11400000, guid: 18ecd6731b10ee9478f3dec8b04a510b, type: 2}
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 0572923f569015340990da6a98568caa, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d1e1c3b6c6d5af846891fec38979a756, type: 2}
