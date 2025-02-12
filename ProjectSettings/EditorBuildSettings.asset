@@ -8,9 +8,36 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Playground.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
+  - enabled: 1
+    path: Assets/Scenes/Cond-1-FarWithNavigation-1.unity
+    guid: 1dae3e8b55250b84e8e97b60abe277bc
+  - enabled: 1
+    path: Assets/Scenes/Cond-1-FarWithNavigation-2.unity
+    guid: 7a7ce479267e18742b985c4b8a8387bf
+  - enabled: 1
+    path: Assets/Scenes/Cond-1-FarWithNavigation-3.unity
+    guid: 3e40673d2729e1848850dcec745e5328
+  - enabled: 1
+    path: Assets/Scenes/Cond-2-FarWithoutNavigation-1.unity
+    guid: 5c93fd7331ea7594eaeba510e046b40a
+  - enabled: 1
+    path: Assets/Scenes/Cond-2-FarWithoutNavigation-2.unity
+    guid: 4daf52a23c4e22740a2cb702a32c5b2d
+  - enabled: 1
+    path: Assets/Scenes/Cond-2-FarWithoutNavigation-3.unity
+    guid: d97107456b00c3d47828e3ddc3a9bb6d
+  - enabled: 1
+    path: Assets/Scenes/Cond-3-FollowHead-1.unity
+    guid: 3637dd307faad9b46b25edea1b8e5760
+  - enabled: 1
+    path: Assets/Scenes/Cond-3-FollowHead-2.unity
+    guid: a973fd2d563dffb47b1c160c99f7002a
+  - enabled: 1
+    path: Assets/Scenes/Cond-3-FollowHead-3.unity
+    guid: 276e058f3cae2a643822afdd13e717a7
   m_configObjects:
     Unity.XR.PICO.LivePreview.Settings: {fileID: 11400000, guid: 18ecd6731b10ee9478f3dec8b04a510b, type: 2}
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 0572923f569015340990da6a98568caa, type: 2}

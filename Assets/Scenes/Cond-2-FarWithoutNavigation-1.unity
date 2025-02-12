@@ -1123,6 +1123,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 86651033164175905, guid: fe6d2e68d937c14488c7acc06e70b558, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Cond-2-FarWithoutNavigation-2
+      objectReference: {fileID: 0}
     - target: {fileID: 2455208756596962939, guid: fe6d2e68d937c14488c7acc06e70b558, type: 3}
       propertyPath: m_Name
       value: UIMenu Prefab
@@ -1166,6 +1170,10 @@ PrefabInstance:
     - target: {fileID: 4182374669933285733, guid: fe6d2e68d937c14488c7acc06e70b558, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4362922578329184426, guid: fe6d2e68d937c14488c7acc06e70b558, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Cond-2-FarWithoutNavigation-3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1342,6 +1350,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224636915255053766, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7313654230448209575, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
