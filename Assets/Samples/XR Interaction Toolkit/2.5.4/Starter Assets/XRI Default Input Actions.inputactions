@@ -443,6 +443,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Btn Interactions",
+                    "type": "Button",
+                    "id": "75a81424-1816-4bd5-9276-13e389840309",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -674,6 +683,50 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Grip Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c9837c0-b5ab-4186-b458-b13c328df735",
+                    "path": "<PXR_Controller>/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Btn Interactions",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7b7fdd3c-39e7-4672-806f-cff0baee521e",
+                    "path": "<PXR_Controller>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Btn Interactions",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "afb8a829-4380-4d9d-bcca-35e4c6817cf3",
+                    "path": "<PXR_Controller>{LeftHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Btn Interactions",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b83e5267-1ace-4b65-8234-b2cef97711ee",
+                    "path": "<PXR_Controller>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Btn Interactions",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -1133,6 +1186,15 @@
                     "initialStateCheck": true
                 },
                 {
+                    "name": "Btn Interactions",
+                    "type": "Button",
+                    "id": "44485dcb-9ab6-4e90-bacf-c092c0ac0db6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Rotation",
                     "type": "Value",
                     "id": "ee6bf5bf-bb0a-4a50-8327-cb654b19e298",
@@ -1470,6 +1532,61 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Grip Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3dad3651-7f01-414c-9120-3ee7cc130102",
+                    "path": "<PXR_Controller>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Btn Interactions",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1ff8aeff-6c4c-4bee-9a70-f4ce7dd91bec",
+                    "path": "<PXR_Controller>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Btn Interactions",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "033d0253-be62-4773-963b-ca0f4cebfb1b",
+                    "path": "<PXR_Controller>{RightHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Btn Interactions",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3f19d6de-141a-4ddf-ad23-a860d3acf668",
+                    "path": "<PXR_Controller>/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Btn Interactions",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2e0c3e0d-fba9-447a-8953-c3cfbc9f9337",
+                    "path": "<PXR_Controller>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Btn Interactions",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -2596,6 +2713,54 @@
                     "processors": "",
                     "groups": "",
                     "action": "Pinch Gap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "PICOXR",
+            "id": "a757c2c8-7038-4e1e-9de6-6731b2798cab",
+            "actions": [
+                {
+                    "name": "hiddenMenu",
+                    "type": "Button",
+                    "id": "21674d2a-8acb-4526-adfd-2d34564d0194",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "8383f938-14ff-49ec-9cf6-ca825ffb955b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ad2db51a-d48a-4460-8540-40391478d606",
+                    "path": "<PXR_Controller>{LeftHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "hiddenMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e14d5669-2e3a-4761-95b1-e1d5a7907ee8",
+                    "path": "<PXR_Controller>/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
